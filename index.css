@@ -1,0 +1,70 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  background: #00c7ff;
+}
+
+.menu {
+  font-family: 'Source Serif 4', sans-serif;
+  font-size: 20px;
+ 
+}
+.menu:hover{
+  font-size: 23px;
+}
+
+.img {
+  height: 60px;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+.nav {
+  margin-right: 25px;
+}
+.imagem {
+  object-fit:none;
+  height: 400px;
+  width: 400px;
+  margin-top: 20px;
+}
+
+h2, p {
+  color: black;
+}
+
+.caixa {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+  
+}
+.botao {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px;
+}
+.centrobnt{
+  text-align: center;
+}
+.botao:hover{
+  font-size: 23px;
+  background: rgb(219, 214, 214);
+  
+}
+
+.grid {
+  display: grid;
+  grid-template-columns:  200px 200px 200px;
+  gap: 3px;
+  justify-content: center;
+  background: #f8f9fa;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
