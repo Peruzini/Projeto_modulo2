@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body{
+    background: #00c7ff;
+  }
+  
+  .menu {
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 20px;
+    transition: 0.5s;
+   
+  }
+  .menu:hover{
+    font-size: 23px;
+  }
+  
+  .img {
+    height: 60px;
+    margin-left: 25px;
+    margin-right: 10px;
+  }
+  .nav {
+    margin-right: 25px;
+  }
+  
+  h2, p {
+    color: black;
+  }
+
+  main {
+      width: 100%;
+      height: 100%;
+      margin: 5em 0;
+  }
+
+  .card {
+      max-width: 18rem;
+  }
+
+  .img-card {
+      box-sizing: border-box;
+  }
+  .imagem-plano {
+      width: 100%;
+      height: 100%;
+      position: relative;
+  }
+  
+  .titulo-card {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top:25%;
+    font-weight: bold;
+    color: #00c7ff;
+    font-size: 50px;
+  }
+
+  footer {
+      width: 100%;
+      height: 100px;
+      background-color: #ebebeb;
+      display: flex;
+      align-items: center;
+  }
+
+  .texto-rodape {
+    width: 100%;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .texto-rodape:hover {
+    color: rgb(54, 54, 54);
+    font-size: 20px;
+  }
+
+  
+@media screen and (max-width: 992px)  {
+  .margem-cards {
+    margin: 25px 0;
+  }
+}
