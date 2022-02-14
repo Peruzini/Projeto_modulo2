@@ -1,20 +1,21 @@
-/* 
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-} */
 
 body{
   background: #00c7ff;
 }
+
 
 /* .menu {
   font-family: 'Source Serif 4', sans-serif;
   font-size: 20px;
   transition: 0.5s;
 } */
+
 .menu:hover{
   font-size: 23px;
 }
@@ -24,6 +25,7 @@ body{
   margin-left: 25px;
   margin-right: 10px;
 }
+
 /* .nav {
   margin-right: 25px;
 } */
