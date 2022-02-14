@@ -4,17 +4,18 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-}
 
 body{
   background: #00c7ff;
 }
 
-.menu {
+
+/* .menu {
   font-family: 'Source Serif 4', sans-serif;
   font-size: 20px;
   transition: 0.5s;
-}
+} */
+
 .menu:hover{
   font-size: 23px;
 }
@@ -24,14 +25,15 @@ body{
   margin-left: 25px;
   margin-right: 10px;
 }
-.nav {
+
+/* .nav {
   margin-right: 25px;
-}
+} */
 .imagem {
-  object-fit:none;
+  object-fit:cover;
   height: 400px;
   width: 400px;
-  margin-top: 20px;
+  margin-top: 0px;
 }
 
 h2, p {

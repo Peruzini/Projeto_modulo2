@@ -13,68 +13,132 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand front menu" href="#"> <img src="./imagens/programming.png" class="img"> Front-Enders</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-      <div class="navbar-nav nav">
-        <a class="nav-item nav-link active menu" href="index.html">Home<span class="sr-only"></span></a>
-        <a class="nav-item nav-link menu" href="#">Planos</a>
-        <a class="nav-item nav-link menu" href="#">Cadastro</a>
-        <a class="nav-item nav-link menu" href="#">Login</a>
-        <a class="nav-item nav-link menu" href="#">Contato</a>
-      </div>
-    </div>
-  </nav>
 
-  <div class="bd-example">
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="imagens/istockphoto-1305999733-170667a.jpg" class="d-block w-100 imagem" alt="tech">
-          <div class="carousel-caption d-none d-md-block">
-            <h2>Texto</h2>
-            <p>Parágrafo.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="imagens/aquid.jpg" class="d-block w-100 imagem" alt="tech">
-          <div class="carousel-caption d-none d-md-block">
-            <h2>Texto</h2>
-            <p>Parágrafo.</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="imagens/istockphoto-1301151581-170667a.jpg" class="d-block w-100 imagem" alt="tech">
-          <div class="carousel-caption d-none d-md-block">
-            <h2>Texto</h2>
-            <p>Parágrafo.</p>
-          </div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand front menu" href="#"> <img src="./imagens/programming.png" class="img"> Front-Enders</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <ul class="navbar-nav nav">
+            <li class="nav-item"><a class="nav-link active menu" href="index.html">Home<span class="sr-only"></span></a></li>
+            <li class="nav-item"><a class=" nav-link active menu" href="#">Planos</a></li>
+            <li class="nav-item"><a class=" nav-link active menu" data-toggle="modal" data-target="#cadastro-modal" href="#">Cadastro</a></li>
+            <li class="nav-item"><a class=" nav-link active menu" href="#">Login</a></li>
+            <li class="nav-item"><a class=" nav-link active menu" href="#">Contato</a></li> 
+          </ul>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only"></span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only"></span>
-      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./imagens/Peruzzini.jpeg" class="d-block w-100 imagem m-5" alt="tech">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Jogos RPG</h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/aquid.jpg" class="d-block w-100 imagem" alt="tech">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Texto</h2>
+                <p>Parágrafo.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="imagens/istockphoto-1301151581-170667a.jpg" class="d-block w-100 imagem" alt="tech">
+              <div class="carousel-caption d-none d-md-block">
+                <h2>Texto</h2>
+                <p>Parágrafo.</p>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <section class="caixa">
+    <h2>A solução para seu site!</h2>
+    <p>Faça seu site com acesso para notebooks e smartphones!</p>
+  </section>
+
+  <main>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col col-md-12 col-12 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-center">
+                <div class="card margem-cards">
+                    <div class="img-card">
+                        <img src="./imagens/imgplanos.png" class="card-img-top imagem-plano" alt="...">
+                        <h4 class="titulo-card">Básico</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Plano inicial</h5>
+                        <p class="card-text">Neste plano você adquire um formulário, vários jogos no estilo RPG e
+                            ainda por cima ganha como bônus um site que realiza a criptografia de Cifra de César e
+                            Base de 64.</p>
+                        <a href="#" class="btn btn-primary">Escolher!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-md-12 col-12 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-center">
+                <div class="card margem-cards">
+                    <div class="img-card">
+                        <img src="./imagens/imgplanos.png" class="card-img-top imagem-plano" alt="...">
+                        <h4 class="titulo-card">Padrão</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Plano mais utilizado</h5>
+                        <p class="card-text">Neste plano você adquire um formulário, vários jogos no estilo RPG e
+                            ainda por cima ganha como bônus um site que realiza a criptografia de Cifra de César e
+                            Base de 64.</p>
+                        <a href="#" class="btn btn-primary">Escolher!</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-md-12 col-12 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-center">
+                <div class="card margem-cards">
+                    <div class="img-card">
+                        <img src="./imagens/imgplanos.png" class="card-img-top imagem-plano" alt="...">
+                        <h4 class="titulo-card">Premium</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Plano vip</h5>
+                        <p class="card-text">Neste plano você adquire um formulário, vários jogos no estilo RPG e
+                            ainda por cima ganha como bônus um site que realiza a criptografia de Cifra de César e
+                            Base de 64.</p>
+                        <a href="#" class="btn btn-primary">Escolher!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
+</main>
 
-  <div class="caixa">
-    Texto explicando o serviço
 
-  </div>
 
   <div class="centrobnt">
     <a href="#"><button type="button" class="btn btn-light botao"><strong>Inscreva-se</strong></button></a>
@@ -84,6 +148,68 @@
   <footer>
     <a class="texto-rodape">Desenvolvido por equipe 4</a>
   </footer>
+
+
+  <!-- Modal -->
+<div class="modal fade" id="cadastro-modal" tabindex="-1" aria-labelledby="botaoModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <dialog class="modal-content">
+      <header class="modal-header">
+        <h5 class="modal-title" id="botaoModalLabel">Faça seu cadastro</h5>
+      </header>
+      <main class="modal-body">
+          <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Nome Completo</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Digite seu nome completo">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Endereço</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="rua, avenida, travessa...">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Complemento</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="casa, apartamento, próximo ao supermercado...">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Cidade</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-6">
+              <label for="inputState" class="form-label">Estado</label>
+              <select id="inputState" class="form-select">
+                <option selected>Escolha...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label for="inputZip" class="form-label">CEP</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Checar
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Cadastrar</button>
+            </div>
+          </form>
+      </main>
+    </dialog>
+  </div>
+</div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
