@@ -46,3 +46,31 @@
     flex-direction: column;
 }
 
+.container .contatoInfo .box{
+
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+     
+}
+
+.container .contatoInfo .box .icone{
+
+    min-width: 60px;
+    height:60px;
+    background:#fff;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    font-size:22px;
+
+}
+
+.container .contatoInfo .box .icone .texto{
+
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    
+}
