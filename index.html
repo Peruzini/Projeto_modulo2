@@ -20,13 +20,13 @@
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand front menu font-titulo" href="#"> <img src="./imagens/icone-reduzido.png" class="img"> Front-Enders</a>
+        <a class="navbar-brand front menu font-titulo" id= 'tamanho-titulo'href="#"> <img src="./imagens/icone-reduzido.png" class="img"> Front-Enders</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
           <ul class="navbar-nav nav">
-            <li class="nav-item"><a class="nav-link active menu font-titulo" href="index.html">Home<span class="sr-only"></span></a></li>
+            <li class="nav-item"><a class="nav-link active menu" href="index.html">Home<span class="sr-only"></span></a></li>
             <li class="nav-item"><a class=" nav-link active menu font-titulo" href="#">Planos</a></li>
             <li class="nav-item"><a class=" nav-link active menu font-titulo" data-toggle="modal" data-target="#cadastro-modal" href="#">Cadastro</a></li>
             <li class="nav-item"><a class=" nav-link active menu font-titulo" href="#">Login</a></li>
@@ -48,22 +48,21 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="./imagens/Apod-tulio.png" class="d-block w-100 imagem imagem-carrosel-um" alt="tech">
+              <img src="./imagens/Apod-tulio.png" class="d-block w-100 imagem img1" alt="tech">
               <div class="carousel-caption d-none d-md-block">
-                <h2 class="font-titulo display-4">Api's de Sites</h2>
+                <h2 class="font-titulo display-4 titulo-carrossel">Api's de Sites</h2>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="./imagens/Peruzzini.jpeg" class="d-block w-100 imagem" alt="tech">
+              <img src="./imagens/Peruzzini.jpeg" class="d-block w-100 imagem img2" alt="tech">
               <div class="carousel-caption d-none d-md-block">
-                <h2 class="font-titulo display-4">Jogos RPG</h2>
+                <h2 class="font-titulo display-4 titulo-carrossel">Jogos RPG</h2>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="imagens/istockphoto-1301151581-170667a.jpg" class="d-block w-100 imagem" alt="tech">
+              <img src="imagens/img-cifra.png" class="d-block w-100 imagem img3" alt="tech">
               <div class="carousel-caption d-none d-md-block">
-                <h2>Texto</h2>
-                <p>Parágrafo.</p>
+                <h2 class="font-titulo display-4 titulo-carrossel">Criptografias</h2>
               </div>
             </div>
           </div>
@@ -86,7 +85,7 @@
     <p class="text-center pb-5 font-titulo" >Faça seu site com acesso para notebooks e smartphones!</p>
   </section>
 
-  <main>
+  
     <div class="container">
         <div class="row justify-content-center">
             <div class="col col-md-12 col-12 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-center">
@@ -124,7 +123,7 @@
             <div class="col col-md-12 col-12 col-lg-4 col-xl-4 col-xxl-4 d-flex justify-content-center">
                 <div class="card margem-cards">
                     <div class="img-card">
-                        <img src="./imagens/imgplanos.png" class="card-img-top imagem-plano" alt="...">
+                        <img src="imagens/imgplanos.png" class="card-img-top imagem-plano" alt="...">
                         <h4 class="titulo-card">Premium</h4>
                     </div>
                     <div class="card-body">
@@ -138,7 +137,7 @@
             </div>
         </div>
     </div>
-</main>
+
 
 
 
@@ -173,6 +172,10 @@
               <label for="inputAddress" class="form-label">Nome Completo</label>
               <input type="text" class="form-control" id="inputAddress" placeholder="Digite seu nome completo">
             </div>
+            <div class="col-md-12">
+              <label for="inputZip" class="form-label">CEP</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
             <div class="col-12">
               <label for="inputAddress" class="form-label">Endereço</label>
               <input type="text" class="form-control" id="inputAddress" placeholder="rua, avenida, travessa...">
@@ -187,24 +190,10 @@
             </div>
             <div class="col-md-6">
               <label for="inputState" class="form-label">Estado</label>
-              <select id="inputState" class="form-select">
-                <option selected>Escolha...</option>
-                <option>...</option>
-              </select>
-            </div>
-            <div class="col-md-6">
-              <label for="inputZip" class="form-label">CEP</label>
-              <input type="text" class="form-control" id="inputZip">
+              <input id="inputState" class="form-control">
             </div>
             <div class="col-12">
-              <div class="form-check">
-                <input class="form-check-input" type="checkbox" id="gridCheck">
-                <label class="form-check-label" for="gridCheck">
-                  Checar
-                </label>
-              </div>
-            </div>
-            <div class="col-12">
+              <button type="button" class="btn btn-secondary" data-toggle="modal" data-dismiss="modal">Fechar</button>
               <button type="submit" class="btn btn-primary">Cadastrar</button>
             </div>
           </form>
@@ -224,5 +213,4 @@
     crossorigin="anonymous"></script>
 
 </body>
-
 </html>

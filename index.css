@@ -1,51 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+}
 
 body{
   background: #00c7ff;
 }
 
-
-/* .menu {
-  font-family: 'Source Serif 4', sans-serif;
-  font-size: 20px;
-  transition: 0.5s;
-} */
-
-.menu:hover{
-  font-size: 23px;
+.menu {
+  transition: 0.3s;
 }
-
+.menu:hover{
+  font-size: 20px;
+}
 
 .font-titulo {
   font-family: 'IBM Plex Serif', serif;
 }
 
+#tamanho-titulo {
+  font-size: 26px;
+  font-weight: bold;
+}
 .img {
   height: 60px;
   margin-left: 25px;
   margin-right: 10px;
 }
 
-.img-carrosel-um {
-  object-fit: cover;
-  object-position: 0 -20%;
-  height: 100px;
-}
-
-/* .nav {
-  margin-right: 25px;
-} */
-/* .imagem {
+.imagem {
   object-fit:cover;
   height: 400px;
-  width: 400px;
-  margin-top: 0px;
-} */
+  object-position: 0 -38%;
+  filter: blur(5px)
+}
+
+.titulo-carrossel {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 80px;
+}
+
+.img-card {
+  box-sizing: border-box;
+}
+.imagem-plano {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.titulo-card {
+position: absolute;
+width: 100%;
+text-align: center;
+top:25%;
+font-weight: bold;
+color: #00c7ff;
+font-size: 50px;
+}
 
 h2, p {
   color: black;
@@ -57,15 +75,18 @@ h2, p {
   font-size: 20px;
   
 }
+
 .botao {
   font-size: 20px;
   text-align: center;
   text-decoration: none;
   margin: 20px;
 }
+
 .centrobnt{
   text-align: center;
 }
+
 .botao:hover{
   font-size: 23px;
   background: rgb(219, 214, 214);
@@ -94,4 +115,28 @@ footer {
 .texto-rodape:hover {
   color: rgb(54, 54, 54);
   font-size: 20px;
+}
+
+@media screen and (max-width: 992px)  {
+  .margem-cards {
+    margin: 25px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .imagem {
+    height: 500px;
+  }
+  .img1 {
+    object-position: 50% -38%;
+  }
+
+  .img2 {
+    object-position: 50% -38%;
+  }
+
+  .img3 {
+    object-position: 50% -38%;
+  }
 }
