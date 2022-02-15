@@ -124,8 +124,12 @@ margin-top: 10px;
     color: #666;
 }
 
-.contatoformulario .inputBox input:focus ~ span {
+.contatoformulario .inputBox input:focus ~ span,
+.contatoformulario .inputBox input:valid ~ span
+.contatoformulario .inputBox textarea:focus ~ span,
+.contatoformulario .inputBox textarea:valid ~ span
+{
     color: #e91e63;
     font-size: 12px;
-    transform: translate(-20px);
+    transform: translateY(-20px);
 }
