@@ -145,6 +145,28 @@ margin-top: 10px;
     font-size: 18 px;
 
 }
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #ebebeb;
+    display: flex;
+    align-items: center;
+  } 
+  .texto-rodape {
+    width: 100%;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 16px;
+    color: rgb(54, 54, 54);
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .texto-rodape:hover {
+    color: rgb(54, 54, 54);
+    font-size: 20px;
+  }
 
 @media(max-width:991px){
 
