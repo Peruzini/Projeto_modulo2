@@ -20,21 +20,32 @@ body{
   font-size: 23px;
 }
 
+
+.font-titulo {
+  font-family: 'IBM Plex Serif', serif;
+}
+
 .img {
   height: 60px;
   margin-left: 25px;
   margin-right: 10px;
 }
 
+.img-carrosel-um {
+  object-fit: cover;
+  object-position: 0 -20%;
+  height: 100px;
+}
+
 /* .nav {
   margin-right: 25px;
 } */
-.imagem {
+/* .imagem {
   object-fit:cover;
   height: 400px;
   width: 400px;
   margin-top: 0px;
-}
+} */
 
 h2, p {
   color: black;
