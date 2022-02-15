@@ -91,3 +91,26 @@
 
 }
 
+.contatoformulario h2 {
+    font-size: 30px;
+    color: #333;
+    font-weight: 500;
+    }
+
+.contatoformulario .inputBox{
+position: relative;
+width: 100%;
+margin-top: 10px;
+}
+.contatoformulario .inputBox input,
+.contatoformulario .inputBox textarea
+{
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid  #333;
+    outline: none;
+}
+
