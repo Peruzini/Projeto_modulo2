@@ -89,30 +89,37 @@ h2, p {
   background: rgb(219, 214, 214);
   
 }
-
-footer {
-  width: 100%;
-  height: 100px;
-  background-color: #ebebeb;
-  display: flex;
-  align-items: center;
-} 
-
-.texto-rodape {
-  width: 100%;
-  opacity: 0.5;
-  text-align: center;
-  font-size: 16px;
-  color: rgb(54, 54, 54);
+/* Rodapé */
+.linkFooter{
   text-decoration: none;
-  cursor: pointer;
-  transition: 0.5s;
+  color: gray;
+}
+.linkFooter:hover{
+  color: black;
+  background: rgb(226, 223, 223);
+  
 }
 
-.texto-rodape:hover {
-  color: rgb(54, 54, 54);
-  font-size: 20px;
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  width: 100%;
+  background: #ebebeb;
+  padding: 15px;
+  color: black;
 }
+footer p {
+  margin: 0;
+  color: gray;
+
+}
+
+.imgFooter{
+  width: 30px;
+}
+
+
 
 @media screen and (max-width: 992px)  {
   .margem-cards {
