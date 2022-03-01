@@ -401,4 +401,19 @@ footer p {
     .container .contatoformulario {
         width: auto;
     }
+    .imagem {
+      height: 500px;
+    }
+    .img1 {
+      object-position: 50% -38%;
+    }
+  
+    .img2 {
+      object-position: 50% -38%;
+    }
+  
+    .img3 {
+      object-position: 50% -38%;
+    }
+  }
 }
