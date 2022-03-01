@@ -387,15 +387,30 @@ footer p {
         max-height: 1500px;
         padding: 0px;
     }
+    .containerbox{
+      flex-direction: column;
+        max-height: 1500px;
+        padding: 0px;
+    }
     .content {
         margin-top: 25px;
+    }
+    .containerbox{
+      margin-top: 25px;
     }
     .container {
         flex-direction: column;
         max-width: 1000px;
     }
+    .containerbox{
+      flex-direction: column;
+      max-width: 1000px;
+    }
     .container .contatoInfo {
         width: auto;
+    }
+    .containerbox{
+      width: auto;
     }
 
     .container .contatoformulario {
@@ -416,4 +431,3 @@ footer p {
       object-position: 50% -38%;
     }
   }
-}
