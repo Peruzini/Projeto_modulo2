@@ -393,6 +393,9 @@ footer p {
         max-height: 1000px;
         padding: 0px;
     }
+    .footer{
+      margin-top: 6000px;
+    }
     .content {
         margin-top: 25px;
     }
