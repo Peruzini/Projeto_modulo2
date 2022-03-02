@@ -170,7 +170,7 @@ margin-top: 10px;
     font-size: 18 px;
 
 }
-footer {
+/* footer {
     width: 100%;
     height: 150px;
     background-color: #ebebeb;
@@ -191,6 +191,37 @@ footer {
   .texto-rodape:hover {
     color: rgb(54, 54, 54);
     font-size: 20px;
+  } */
+
+  .linkFooter{
+    text-decoration: none;
+    color: gray;
+  }
+  .linkFooter:hover{
+    color: black;
+    background: rgb(226, 223, 223);
+    
+  }
+  
+  footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: 100%;
+    background: #ebebeb;
+    padding: 15px;
+    color: black;
+  }
+  footer p {
+    margin: 0;
+    color: gray;
+  
+  }
+  
+  .imgFooter{
+    width: 30px;
+    height: 30px;
+    margin: 0px;
   }
   @import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
 
